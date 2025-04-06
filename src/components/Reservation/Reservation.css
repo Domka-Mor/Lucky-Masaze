@@ -136,14 +136,14 @@
 
 @media (max-width: 1600px){
   .body-img-reservation img{
-    height: 40vh;
-    transform: translate(0%,70%);
+    height: 30vh;
+    transform: translate(0%,80%);
   }
    .body-img-reservation-text h1{
     font-size: 5rem;
   }
   .body-img-reservation .body-img-reservation-text{
-    margin-top: 14rem;
+    margin-top: 8rem;
     height: 50vh;
   }
 
@@ -167,15 +167,15 @@
 
 @media (max-width: 900px){
   .body-img-reservation img{
-    height: 40vh;
-    transform: translate(0%,80%);
+    height: 30vh;
+    transform: translate(0%,60%);
   }
    .body-img-reservation-text h1{
     font-size: 3.5rem;
   }
   .body-img-reservation .body-img-reservation-text{
-    margin-top: 16rem;
-    height: 50vh;
+    margin-top: 10rem;
+    height: 30vh;
   }
 
   .body-img-reservation-text .btn-reservation{
@@ -199,14 +199,14 @@
 @media (max-width: 700px){
   .body-img-reservation img{
     height: 25vh;
-    transform: translate(0%,100%);
+    transform: translate(0%,50%);
   }
    .body-img-reservation-text h1{
     font-size: 2rem;
   }
   .body-img-reservation .body-img-reservation-text{
-    margin-top: 14rem;
-    height: 30vh;
+    margin-top: 7rem;
+    height: 25vh;
   }
 
   .body-img-reservation-text .btn-reservation{
@@ -228,16 +228,19 @@
 }
 
 @media (max-width: 450px){
+  .body-reservation{
+    height: 60vh;
+  }
   .body-img-reservation img{
     height: 15vh;
-    transform: translate(0%,120%);
+    transform: translate(0%,50%);
   }
    .body-img-reservation-text h1{
     font-size: 1.2rem;
   }
   .body-img-reservation .body-img-reservation-text{
-    margin-top: 10rem;
-    height: 20vh;
+    margin-top: 4.5rem;
+    height: 15vh;
   }
 
   .body-img-reservation-text .btn-reservation{

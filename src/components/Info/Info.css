@@ -20,13 +20,12 @@
 .body-text-info{
   position: absolute;
   display: grid;
-  row-gap: 15px;
   top: 0%;
   left: 0%;
   transform: translate(30%,30%);
   height: auto;
   z-index: 100;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .body-text-info h1{
