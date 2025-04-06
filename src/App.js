@@ -9,29 +9,29 @@ import Error from './components/Error/Error';
 
 export default class App extends React.Component {
 
-  // state = {
-  //   loading: true
-  // };
+  state = {
+    loading: true
+  };
 
-  // componentDidMount() {
-  //   this.fakeRequest().then(() => {
-  //     const el = document.querySelector(".loader-body");
-  //     if (el) {
-  //       el.remove();  
-  //       this.setState({ loading: false }); 
-  //     }
-  //   });
-  // }
+  componentDidMount() {
+    this.fakeRequest().then(() => {
+      const el = document.querySelector(".loader-body");
+      if (el) {
+        el.remove();  
+        this.setState({ loading: false }); 
+      }
+    });
+  }
 
-  // fakeRequest = () => {
-  //   return new Promise(resolve => setTimeout(() => resolve(), 3000));
-  // };
+  fakeRequest = () => {
+    return new Promise(resolve => setTimeout(() => resolve(), 3000));
+  };
 
   render() {
 
-    // if (this.state.loading) {
-    //   return null; 
-    // }
+    if (this.state.loading) {
+      return null; 
+    }
 
 
     return (
